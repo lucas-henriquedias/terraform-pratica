@@ -51,4 +51,3 @@ Durante o ciclo de desenvolvimento do projeto, os seguintes comandos do Terrafor
 * **Provedores (Providers)**: Entendimento do papel do *Provider* como ponte de comunicação entre o Terraform e as APIs do provedor de nuvem (AWS).
 * **Arquivos de Estado (`.tfstate`)**: Aprendizado sobre como o Terraform mapeia os recursos reais existentes na nuvem e o motivo pelo qual este arquivo **não deve** ser subido para o repositório por questões de segurança.
 * **Boas Práticas e Organização**: Separação do código em múltiplos arquivos (`main.tf`, `variables.tf`, `outputs.tf`) para manter a legibilidade e reuso de código.
-```
